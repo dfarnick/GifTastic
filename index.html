@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">    
+    <title>Gif Tastic States</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'> -->
+
+</head>
+
+<body>
+    <header>
+        <img id=imageUS src= "assets/images/us_map.gif">
+    </header>   
+    
+    <div class="container" style="background: transparent;">            
+        <h1 class="text-center">United Gifs Of America</h1>
+        <br>
+        <br>
+        <div id="stateHere"> </div>
+        <br>
+        <br>
+        <div class="container" style="background: transparent;">
+            <form id="states">
+                <label id="add" for="state-input">Enter any state you like</label>
+                <input type="text" class="form-control" id="state-input">
+                <br>
+                <br>
+                <button onclick="submitButtonClicked()" type="button" id="add-state" class="btn btn-success">Submit</button>
+            </form>
+           
+            <br>
+            <br>
+            <div id="stateGif"> </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

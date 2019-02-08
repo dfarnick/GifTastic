@@ -1,0 +1,42 @@
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#imageUS {
+    width:690px;
+    height:400px;    
+    display: block;     
+    margin-right: auto;
+    margin-left: auto;
+    border:10px;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    background: rgb(190, 186, 186);
+    color:black;
+    border-color:grey
+}
+.btn-success {
+
+    color: #fff;
+    background-color: #ad1b1b;
+    border-color: #ad1b1b;
+    margin-bottom: 20px;
+    display: block;
+}
+#stateGif {
+    display:inline-block;
+}
+
+/* I attempted to adjust the gif images so they would go from 3 in a row... 2 in a row... then 1*/
+/* bootstrap is hard to style at times... */
+@media screen and (max-width: 980px) {
+    .container {width: 100%; height: 100%;}
+  }  
+  @media screen and (max-width: 768px) {  
+    #imageUS{width:90%;
+            height:60%;}  
+  }  
+  @media screen and (max-width: 640px) {
+   
+  }
